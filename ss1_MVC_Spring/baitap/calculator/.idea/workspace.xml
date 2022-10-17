@@ -20,34 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="131e36cb-ba8a-4b55-bfc8-79e5f3c88b6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baitap/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/greeting.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tudien/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tudien/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tudien/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tudien/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tudien/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tudien/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tudien/src/main/java/baitap/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tudien/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tudien/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tudien/src/main/webapp/WEB-INF/views/greeting.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tudien/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/greeting/src/main/java/thuchanh/greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/greeting/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/greeting/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/greeting/src/main/webapp/WEB-INF/views/greeting.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/greeting/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/src/main/java/thuchanh/Timezone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/src/main/java/thuchanh/ValidEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/src/main/java/thuchanh/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/src/main/java/thuchanh/model/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/src/main/java/thuchanh/model/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/src/main/webapp/WEB-INF/views/customers/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/src/main/webapp/WEB-INF/views/customers/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/src/main/webapp/WEB-INF/views/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/src/main/webapp/WEB-INF/views/timezone/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/src/main/webapp/WEB-INF/views/validateEmail/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/src/main/webapp/WEB-INF/views/validateEmail/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss2_Spring_Controller/thuchanh/emailValid/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +172,8 @@
       <option name="presentableId" value="Default" />
       <updated>1665659761277</updated>
       <workItem from="1665659764779" duration="773000" />
-      <workItem from="1665660593746" duration="406000" />
+      <workItem from="1665660593746" duration="722000" />
+      <workItem from="1666004722732" duration="6462000" />
     </task>
     <servers />
   </component>
@@ -202,10 +197,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1665659788974" />
-    <state x="462" y="118" key="FileChooserDialogImpl" timestamp="1665660525580">
+    <state x="462" y="118" key="FileChooserDialogImpl" timestamp="1666008212321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1665660525580" />
+    <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1666008212321" />
     <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1665660545524">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -254,9 +249,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="905" height="179" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1665660545525" />
-    <state x="65" y="0" key="new project wizard" timestamp="1665660533273">
+    <state x="65" y="0" key="new project wizard" timestamp="1666008213453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1665660533273" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1666008213453" />
   </component>
 </project>
