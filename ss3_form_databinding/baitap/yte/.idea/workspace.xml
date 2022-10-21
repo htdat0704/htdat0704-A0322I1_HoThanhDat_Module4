@@ -20,93 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e32f5bd-c7d6-45f3-ad25-d379ccadaf75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mail/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mail/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mail/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mail/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mail/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mail/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mail/src/main/java/baitap/controller/FormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mail/src/main/java/baitap/model/FormMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mail/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mail/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mail/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mail/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mail/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/controller/MusicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/model/FormMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/model/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/repository/MusicRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baitap/controller/ToKhaiYTeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baitap/model/ToKhaiYTe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/thuchanh/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/thuchanh/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/thuchanh/model/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/thuchanh/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/src/main/java/thuchanh/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/src/main/java/thuchanh/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/java/thuchanh/configuration/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/java/thuchanh/configuration/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/java/thuchanh/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/java/thuchanh/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/java/thuchanh/model/ProductForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/java/thuchanh/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/java/thuchanh/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/resources/upload_file.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/webapp/WEB-INF/views/layout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss1_MVC_Spring/baitap/convert/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss1_MVC_Spring/baitap/convert/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss1_MVC_Spring/baitap/convert/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss1_MVC_Spring/baitap/convert/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666354099722</updated>
-      <workItem from="1666354103160" duration="5261000" />
+      <workItem from="1666354103160" duration="5501000" />
     </task>
     <servers />
   </component>

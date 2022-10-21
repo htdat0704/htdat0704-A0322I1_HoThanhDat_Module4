@@ -3,7 +3,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Login</title>
+    <title>Khai báo y tế</title>
 </head>
 <body>
 <h3>Tờ Khai báo y tế</h3>
