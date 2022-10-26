@@ -8,7 +8,7 @@
 <body>
 <h3>Tờ Khai báo y tế</h3>
 
-<form:form modelAttribute="toKhaiYTe" action="/add" method="post">
+<form:form modelAttribute="toKhaiYTe" action="/add" method="post" >
     <fieldset>
         <legend>Tờ khai ý tế</legend>
         <table>

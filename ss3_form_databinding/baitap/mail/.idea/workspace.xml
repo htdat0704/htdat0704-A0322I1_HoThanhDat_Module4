@@ -20,93 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4132d68b-3a3d-4f90-a1ae-7befb4a1aeca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baitap/controller/FormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baitap/model/FormMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/controller/MusicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/model/FormMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/model/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/repository/MusicRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yte/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yte/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yte/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yte/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yte/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yte/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yte/src/main/java/baitap/controller/ToKhaiYTeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yte/src/main/java/baitap/model/ToKhaiYTe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yte/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yte/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yte/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yte/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yte/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/thuchanh/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/thuchanh/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/thuchanh/model/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/java/thuchanh/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/login/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/src/main/java/thuchanh/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/src/main/java/thuchanh/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/java/thuchanh/configuration/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/java/thuchanh/configuration/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/java/thuchanh/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/java/thuchanh/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/java/thuchanh/model/ProductForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/java/thuchanh/service/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/java/thuchanh/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/resources/upload_file.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/webapp/WEB-INF/views/layout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../thuchanh/uploadFile/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss1_MVC_Spring/baitap/convert/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss1_MVC_Spring/baitap/convert/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss1_MVC_Spring/baitap/convert/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss1_MVC_Spring/baitap/convert/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/baitap/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/baitap/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/baitap/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/baitap/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/baitap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/baitap/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/baitap/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/baitap/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/baitap/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/baitap/src/main/webapp/WEB-INF/views/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/baitap/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/src/main/java/com/codegym/configuration/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/src/main/java/com/codegym/configuration/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/src/main/java/com/codegym/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yte/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yte/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../yte/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,7 +261,9 @@
       <workItem from="1666272336483" duration="561000" />
       <workItem from="1666273537597" duration="687000" />
       <workItem from="1666353797040" duration="35000" />
-      <workItem from="1666356022438" duration="1437000" />
+      <workItem from="1666356022438" duration="1556000" />
+      <workItem from="1666532955579" duration="614000" />
+      <workItem from="1666612663765" duration="410000" />
     </task>
     <servers />
   </component>
@@ -348,6 +295,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1666269103659" />
+    <state x="462" y="118" key="FileChooserDialogImpl" timestamp="1666612818553">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1666612818553" />
     <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1666272302131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -396,10 +347,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="905" height="179" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1666272302131" />
-    <state x="65" y="0" key="new project wizard" timestamp="1666272296710">
+    <state x="65" y="0" key="new project wizard" timestamp="1666612821825">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1666272296710" />
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1666612821825" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1666269207161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
