@@ -20,44 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db62c979-40a0-4fe4-a97f-9bc365d36551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/controller/MusicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/model/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/repository/IMusicRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/repository/IStudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/repository/MusicRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/repository/StudentRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/service/IMusicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/service/IStudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/service/MusicServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/java/baitap/service/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/views/music.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../music/src/main/webapp/WEB-INF/views/student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baitap/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baitap/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baitap/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baitap/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baitap/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baitap/repository/ICommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baitap/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/baitap/service/ICommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_thymleaf/thuchanh/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/repository/BlogRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/repository/IBlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/service/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/service/IBlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/webapp/WEB-INF/views/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/webapp/WEB-INF/views/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../thuchanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../thuchanh/customer-management" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +79,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../music" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -190,6 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667308560564</updated>
       <workItem from="1667308564421" duration="3998000" />
+      <workItem from="1667385235233" duration="2744000" />
     </task>
     <servers />
   </component>
@@ -206,6 +189,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1667311787284">
@@ -216,6 +200,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1667314438053" />
+    <state x="462" y="118" key="FileChooserDialogImpl" timestamp="1667391977439">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1667391977439" />
     <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1667313666177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -280,5 +268,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="905" height="179" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1667312913135" />
+    <state x="65" y="0" key="new project wizard" timestamp="1667391620391">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1667391620391" />
   </component>
 </project>
