@@ -20,26 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db62c979-40a0-4fe4-a97f-9bc365d36551" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/config/AppConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/config/AppInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/model/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/repository/BlogRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/repository/IBlogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/service/BlogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/java/baitap/service/IBlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/webapp/WEB-INF/views/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/webapp/WEB-INF/views/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../ss6_JPA/baitap/blog/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/src/main/java/baitap/config/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/src/main/java/baitap/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/src/main/java/baitap/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/src/main/java/baitap/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/src/main/java/baitap/repository/ICommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/src/main/java/baitap/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/src/main/java/baitap/service/ICommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss7_spring_data/baitap/picture/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../thuchanh/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../thuchanh/customer-management" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +74,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../music" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -173,6 +168,7 @@
       <updated>1667308560564</updated>
       <workItem from="1667308564421" duration="3998000" />
       <workItem from="1667385235233" duration="2744000" />
+      <workItem from="1667830190976" duration="137000" />
     </task>
     <servers />
   </component>
