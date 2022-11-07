@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:replace="~{/layout::common}" class="divOut"></div>
+<strong style="color: green" th:text="${message}"></strong> <!--text -->
+<p th:if="${blogList.isEmpty()}" style="color:red">List Empty</p>
+
+
+<form action="/blog/search">
+    <input type="text" name="kq">
+    <input type="submit" value="Search">
+</form>
+
+<form action="/blog/category">
+    <select name="category">
+        <option th:each="item: ${categories}"
+                th:value="${item.id}" th:text="${item.name}">
+        </option>
+    </select>
+    <input type="submit" value="Search">
+</form>
+
+
+<a th:href="@{/category}">Move to Category</a><br>
+<a href="/blog/create">Create new Blog</a>
+
+<table class="table" border="1" >
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Author</th>
+        <th>Description</th>
+        <th>Category</th>
+        <th>View</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="blog : ${blogList}">
+        <td th:text="${blog.id}">1</td>
+        <td th:text="${blog.author}"></td>
+        <td th:text="${blog.description}">Ho Quang Hieu</td>
+        <td th:text="${blog.category.name}">Ho Quang Hieu</td>
+        <td>
+            <a th:href="@{/blog/view/{id}(id = ${blog.id})}">View</a>
+        </td>
+        <td>
+            <a th:href="@{/blog/edit/{id}(id = ${blog.id})}">Edit</a>
+        </td>
+        <td>
+            <a th:href="@{/blog/delete/{id}(id = ${blog.id})}">Delete</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<div>
+    <a th:href="@{'/blog'(page=${blogList.number - 1})}" th:if="${blogList.hasPrevious()}">Previous</a>
+    <span th:text="${blogList.number + 1}"></span>/<span th:text="${blogList.totalPages}"></span>
+    <a th:href="@{'/blog'(page=${blogList.number + 1})}" th:if="${blogList.hasNext()}">Next</a>
+</div>
+<div th:replace="~{/layout::abc}" class="divOut"></div>
+
+<!--<div th:with="name='Hoang', age='18'">-->
+<!--    <h3 th:text="${name}"></h3>-->
+<!--</div>-->
+</body>
+</html>

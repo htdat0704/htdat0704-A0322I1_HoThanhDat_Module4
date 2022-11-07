@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:replace="~{/layout::common}" class="divOut"></div>
+<strong style="color: green" th:text="${message}"></strong> <!--text -->
+<p th:if="${categories.isEmpty()}" style="color:red">List Empty</p>
+
+<a th:href="@{/blog}">Move to Blog</a><br>
+<a href="/category/create">Create new Category</a>
+<table class="table" border="1" >
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="category : ${categories}">
+        <td th:text="${category.id}">1</td>
+        <td th:text="${category.name}"></td>
+        <td>
+            <a th:href="@{/category/edit/{id}(id = ${category.id})}">Edit</a>
+        </td>
+        <td>
+            <a th:href="@{/category/delete/{id}(id = ${category.id})}">Delete</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<div>
+    <a th:href="@{'/category'(page=${categories.number - 1})}" th:if="${categories.hasPrevious()}">Previous</a>
+    <span th:text="${categories.number + 1}"></span>/<span th:text="${categories.totalPages}"></span>
+    <a th:href="@{'/category'(page=${categories.number + 1})}" th:if="${categories.hasNext()}">Next</a>
+</div>
+<div th:replace="~{/layout::abc}" class="divOut"></div>
+
+<!--<div th:with="name='Hoang', age='18'">-->
+<!--    <h3 th:text="${name}"></h3>-->
+<!--</div>-->
+</body>
+</html>
