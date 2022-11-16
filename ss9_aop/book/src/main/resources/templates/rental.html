@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<strong style="color: #00e700" th:text="${message}">s</strong>
+<a th:href="@{'/book'}">List</a>
+<br>
+Book Name: <span th:text="${book.name}"></span>
+Quantity: <span th:text="${book.quantity}"></span>
+<br>
+
+<form th:method="post" th:unless="${book.quantity <= 0}">
+    Rental Form<br>
+    Quantity want to Rental:
+    <input type="number" name="quantityOrder" min="1"/>
+    <input type="hidden" name="quantityBook" th:value="${book.quantity}"/>
+    <input type="submit" value="Rental"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a th:href="@{'/book'}">List</a>
+<form th:method="post">
+    Return Form<br>
+    <select type="text" name="ctorder">
+        <option th:each="item: ${ctorders}" th:value="${item.id}" th:text="${item.id}">
+        </option>
+    </select>
+    <input type="submit" value="Return"/>
+</form>
+</body>
+</html>
