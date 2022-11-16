@@ -1,5 +1,6 @@
 package baitap.book.controller;
 
+import baitap.book.exception.UnavailableQuantityBookException;
 import baitap.book.model.Book;
 import baitap.book.model.CTOrder;
 import baitap.book.service.book.IBookService;
@@ -41,7 +42,7 @@ public class BookController {
         int quantityRental = Integer.parseInt(quantityOrder);
         int quantityOfBook = Integer.parseInt(quantityBook);
         if(quantityOfBook < quantityRental){
-            throw new Exception("So luong vuot qua");
+            throw new UnavailableQuantityBookException("So luong vuot qua");
         }
         quantityOfBook -= quantityRental;
         bookService.rentalBook(quantityOfBook,id);
