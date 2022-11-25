@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        function getBlog(blog) {
+            return `<tr>`+
+                `<td >${blog.id}</td>`+
+                `<td >${blog.author}</td>` +
+                `<td >${blog.description}</td>` +
+                `<td >${blog.category.name}</td>` +
+                `<td><a href="/blog/view/${blog.id}">View</a></td>`+
+                `<td><a href="/blog/edit/${blog.id}">Edit</a></td>`+
+                `<td><a href="/blog/delete/${blog.id}">Delete</a></td>`+
+                `</tr>`;
+        }
+    $(document).ready(function () {
+        $("#searchBlog").click(function (event) {
+            let searchValue = $('#kq')
+
+            $.ajax({
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                type: "POST",
+                data: searchValue,
+                //tên API
+                url: "/api/blogs/search",
+                //xử lý khi thành công
+                success: function (data) {
+                    // hien thi danh sach o day
+                    let content = '    <tr>\n' +
+                        '        <th>ID</th>\n' +
+                        '        <th>Author</th>\n' +
+                        '        <th>Description</th>\n' +
+                        '        <th>Category</th>\n' +
+                        '        <th>View</th>\n' +
+                        '        <th>Edit</th>\n' +
+                        '        <td>Delete</td>\n' +
+                        '    </tr>';
+                    for (let i = 0; i < data.length; i++) {
+                        content += getBlog(data[i]);
+                    }
+                    document.getElementById('blogList').innerHTML = content;
+                }
+            });
+            event.preventDefault();
+        })
+    })
+    </script>
+</head>
+<body>
+<div th:replace="~{/layout::common}" class="divOut"></div>
+<strong style="color: green" th:text="${message}"></strong> <!--text -->
+<p th:if="${blogList.isEmpty()}" style="color:red">List Empty</p>
+
+<form action="/blog/search">
+    <input type="text" name="kq" id="kq">
+    <input type="submit" value="Search" id="searchBlog">
+</form>
+
+<a href="/blog/create">Create new Blog</a>
+<table class="table" border="1" th:unless="${blogList.isEmpty()}" id="blogList">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Author</th>
+        <th>Description</th>
+        <th>Category</th>
+        <th>View</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="blog : ${blogList}">
+        <td th:text="${blog.id}">1</td>
+        <td th:text="${blog.author}"></td>
+        <td th:text="${blog.description}">Ho Quang Hieu</td>
+        <td th:text="${blog.category.name}">Ho Quang Hieu</td>
+        <td>
+            <a th:href="@{/blog/view/{id}(id = ${blog.id})}">View</a>
+        </td>
+        <td>
+            <a th:href="@{/blog/edit/{id}(id = ${blog.id})}">Edit</a>
+        </td>
+        <td>
+            <a th:href="@{/blog/delete/{id}(id = ${blog.id})}">Delete</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+
+<div th:replace="~{/layout::abc}" class="divOut"></div>
+
+<!--<div th:with="name='Hoang', age='18'">-->
+<!--    <h3 th:text="${name}"></h3>-->
+<!--</div>-->
+</body>
+</html>

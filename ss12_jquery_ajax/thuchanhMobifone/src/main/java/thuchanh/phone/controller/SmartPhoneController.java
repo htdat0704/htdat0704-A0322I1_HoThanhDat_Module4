@@ -21,6 +21,16 @@ public class SmartPhoneController {
         return new ResponseEntity<>(smartphoneService.save(smartphone), HttpStatus.CREATED);
     }
 
+    @PutMapping("/update")
+    public ResponseEntity<SmartPhone> updateSmartphone(@RequestBody SmartPhone smartphone) {
+        return new ResponseEntity<>(smartphoneService.save(smartphone), HttpStatus.CREATED);
+    }
+
+    @GetMapping("/find/{id}")
+    public ResponseEntity<SmartPhone> getSmartPhone(@PathVariable long id) {
+        return new ResponseEntity<>(smartphoneService.findById(id).get(), HttpStatus.OK);
+    }
+
     @DeleteMapping("/{id}")
     public ResponseEntity<SmartPhone> deleteSmartphone(@PathVariable Long id) {
         Optional<SmartPhone> smartphoneOptional = smartphoneService.findById(id);
