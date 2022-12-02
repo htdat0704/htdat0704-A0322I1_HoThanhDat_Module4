@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+<div sec:authorize="isAuthenticated()">
+    <h2>You'r log in</h2>
+    <h2>
+        Hello
+        <span sec:authentication="principal.username"></span>
+    </h2>
+
+    <div sec:authorize="hasRole('ADMIN')">
+        you're admin
+    </div>
+
+    <div sec:authorize="hasRole('USER')">
+        you're user
+    </div>
+</div>
 home
 </body>
 </html>
